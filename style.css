@@ -227,6 +227,9 @@ section:nth-child(2n) {
   margin: -3em auto 2em;
 }
 
+#self-info > p{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 #about #self-info span {
   color: #2857a4;
