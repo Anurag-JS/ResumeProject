@@ -122,6 +122,7 @@ section:nth-child(2n) {
 }
 
 
+
 /*Social Links*/
 .social-links li a i {
   font-size: 1.8em;
@@ -224,6 +225,10 @@ section:nth-child(2n) {
   width: 70%;
   min-width: 660px;
   margin: -3em auto 2em;
+}
+
+#self-info > p{
+  font-family: cursive;
 }
 
 #about #self-info span {
