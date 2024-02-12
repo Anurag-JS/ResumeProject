@@ -59,3 +59,16 @@ function checkScroll(){
     }  
 }
 
+//Setting Active & inactive Titles
+let activeTitle = document.title;
+let inactiveTitle = "Hey, Come Back ☹️";
+
+window.addEventListener('blur', e => {
+  document.title = inactiveTitle;
+});
+
+window.addEventListener('focus', e => {
+  document.title = activeTitle;
+});
+
+
